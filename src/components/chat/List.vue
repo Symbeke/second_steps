@@ -2,7 +2,7 @@
     
 <div class="wrapper">
   <div class="inputField">
-    <img   v-on:click="create_button_handler" src="../../../../plus.png" class="createBtn">
+    <img   v-on:click="create_button_handler" src="../../assets/plus.png" class="createBtn">
   <input type="text" placeholder="search" class="search">
   
   </div>
@@ -12,7 +12,7 @@
         v-bind:key="chat._id"
         v-on:click="choose_button_handler(chat._id)">
       <div class="photo">
-        <img src="../../../../download (1).png" height="50px" width="50px">
+        <img src="../../assets/download (1).png" height="50px" width="50px">
         </div>
         <div class="chat_content">
     <div class="title">
@@ -171,7 +171,7 @@
     border: none;
     border-radius: 10px;
     color: #f1f6f7;
-    background-image: url("../../../../icons8-search-120.png");
+    background-image: url("../../assets/icons8-search-120.png");
     background-repeat: no-repeat;
     background-position: 170px;
     background-size: 25px;
